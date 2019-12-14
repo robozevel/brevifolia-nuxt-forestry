@@ -9,6 +9,9 @@ const dynamicRoutes = getDynamicPaths({
 
 export default {
   mode: 'universal',
+  generate: {
+    dir: 'public'
+  },
   /*
    ** Headers of the page
    */
